@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width:100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/bk.png');
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.container{
+  position: relative;
+  width: 85%;
+  height: 85vh;
+  border: 0.5vh solid rgb(116, 137, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255); 
+  
+ 
+}
+
+.logout{
+  position: absolute;
+  top: 1%;
+  right: 0;
+  right: 1%;
+  text-transform: capitalize;
+  font-size: 1vw;
+  color: rgb(153, 161, 241);
+  background:none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  
+}
+
+.greeting{
+  font-size: 10vw;
+  color: white;
+  font-weight: 100;
+  text-transform: capitalize;
+  background-color: rgb(153, 161, 241) ;
+  border: none;
+  border-radius: 2%;
+  padding: 10px 20px 10px 20px;
+}

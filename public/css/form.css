@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+body{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width:100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/bk.png');
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-container{
+  position: absolute;
+  width: 80vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  border: 0.2vw solid  rgb(116, 137, 232); 
+  background-color: rgba(255, 255, 255, 0.6); 
+  align-items: center;
+}
+
+.form{
+  height: auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 6vw;
+  font-weight: 300;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  color: rgba(255, 255, 255, 0.8); 
+  opacity: 0;
+  background-color:  rgb(153, 161, 241);
+  border: none;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 2% 2% 2% 2%;
+}
+
+input,
+.submit-button{
+  width: 80%;
+  height: 35px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+  color:rgb(0, 0, 0, 0.6);
+  border: none;
+  padding: 15px;
+  transition: 0.2s;
+  text-transform: capitalize;
+  opacity: 0;
+}
+
+input::placeholder{
+  color:rgb(0, 0, 0, 0.6);
+}
+
+
+.submit-button{
+  width: auto;
+  padding: 0 20px;
+  margin: 40px auto 0;
+  color:rgb(0, 0, 0, 0.6);
+  cursor: pointer;
+  opacity: 0;
+}
+
+.link{
+  text-align: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  display:inline-block;
+  margin: 2% 2%;
+  opacity: 0;
+
+}
+
+.link:hover{
+  color: rgb(255, 255, 255);
+}
+
+.alert-box{
+  margin-left: 19%;
+  margin-bottom: 10%;
+  max-width: 90%;
+  width: 50vh;
+  height: 4vh;
+  text-transform: capitalize;
+  background: rgb(255, 119, 119);
+  border-top: 10px solid rgb(255, 37, 37);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transition: 1s;
+  opacity: 0;
+}
+
+.alert{
+  font-size: 2vh;
+  opacity: 0;
+}
